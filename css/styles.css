@@ -39,6 +39,7 @@ h1 {
 .menu-item a {
     color: #f9faf8; 
     text-decoration: none;
+    padding: 10px;
 }
 
 .body {
@@ -49,7 +50,8 @@ h1 {
 .main-head {
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
+    justify-content:center;
+    align-items: center;
     color: #f9faf8;
     font-family: 'Roboto', sans-serif;
     background-color: #1F2937;
@@ -65,13 +67,23 @@ h1 {
     font-size: 18px;
 }
 
-.main-head.description-photo {
+.description button {
     padding: 10px;
-    height: 400px;
+    white-space: nowrap;
+}
+
+.main-head img {
+    margin: 10px;
+    max-height: 300px;
+    border-radius: 10%;
+    border: 2px solid white;
 }
 
 .description button {
     width: 100px;
+    border-radius: 15%;
+    padding: 15px;
+    border: 0px;
     background-color: #3882F6;
     color: white;
 }
@@ -84,13 +96,16 @@ h1 {
     align-items: baseline;
 }
 
-.project {
+.project, h3, a {
     margin: 20px;
     color: #1F2937;
+    text-decoration: none;
 }
 
 .project img {
     width: 200px;
+    border: solid #1F2937 2px;
+    border-radius: 10%;
 }
 
 .quotes {
@@ -116,4 +131,13 @@ h1 {
     align-items: center;
     background-color: #1F2937;
     color: #f9faf8;
+    padding: 10px;
+}
+
+.footer a {
+    color: #f9faf8; 
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
 }
