@@ -16,6 +16,7 @@ body {
 h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 48px;
+    margin: 20px;
 }
 
 .menu {
@@ -43,7 +44,6 @@ h1 {
 .body {
     display: flex;
     flex-direction: column;
-    background-color: #1F2937;
 }
 
 .main-head {
@@ -52,7 +52,9 @@ h1 {
     justify-content:space-evenly;
     color: #f9faf8;
     font-family: 'Roboto', sans-serif;
-    margin: 80px;
+    background-color: #1F2937;
+    padding: 100px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .description {
@@ -63,8 +65,9 @@ h1 {
     font-size: 18px;
 }
 
-.main-head .description-photo {
-    margin: 10px;
+.main-head.description-photo {
+    padding: 10px;
+    height: 400px;
 }
 
 .description button {
@@ -77,16 +80,40 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    font-family: 'Roboto', sans-serif;
+    align-items: baseline;
 }
 
-.quote {
+.project {
+    margin: 20px;
+    color: #1F2937;
+}
+
+.project img {
+    width: 200px;
+}
+
+.quotes {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    color: white;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
 }
 
 .footer {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content:space-evenly;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    background-color: #1F2937;
+    color: #f9faf8;
 }
